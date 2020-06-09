@@ -1,0 +1,36 @@
+{
+	"title" : "Name Seen in Tab",
+
+	"author"	: "Gregory Ewing",
+	"date"		: "June 2020",
+	"projectInfo" : "Not used in page. This is a descriptive field for humans reading the json source. For example, this is a template for the application of the Water Ethics Web Engine.",
+	"buildKey"	: 9999,
+	"directoryName" : "template",
+
+
+	"scenarios" : {
+		"nTot" : 2,
+		"nServe" : 2
+	},
+
+	"infoBar" : {
+		"header" 		: "Header Within Scenario Window",
+		"nCategories" 	: 5,
+		"categories" 	:["number of","categories","matches","barValues array","length "],
+		"defaultColor"	: "#2ecc71",
+		"colorByCat"	: ["default","default","#aa0000b3","#aa0000b3","#3957ab"]
+	},
+
+	"results" : {
+		"aggregateExplanation" : "The images below show the voting preferences for the scenarios you saw. Percentages show the divide between majority and minority preferences.",
+		"sliderExplanation" : "The sliders show the same date as the table, only here the data are normalized to the minimum and maximum possible outcomes for each category. If you are further to the left, it suggests that you emphasize the <i>minimization</i> of the category.",
+		"tableExplanation" : "The table below shows the minimum and maximum possible damage for each category, given the scenarios you encountered. It also shows the score that you received within each category. A score close to the minimum suggests that you prioritize minimizing this type of damage."
+	},
+
+	"comparitorButton" : "Do This",
+	"navleft"  : "Upper Navigation/Banner Left",
+	"navright" : "Upper Navigation/Banner Right",
+	"steps" : "HTML to include when clicked on button. 1. Play the game. <br>2.View the results.",
+	"missionStatement" : "Appears on landing page, before users enter into game play. Higher level description of scope of scenarios.",
+	"instructionText" : "Chose between the two scenarios above. Click the button for the outcome you would prefer to see."
+}

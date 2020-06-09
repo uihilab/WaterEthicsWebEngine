@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "Left-Panel": {
+      "img_path": "imagePathForLeftPanel.png",
+      "descr": "Here is a text description of the left-panel of scenario sample1. Provide the user more context to scenario.",
+      "barValues": [8,2,1,1,3]
+    },
+    "Right-Panel": {
+      "img_path": "imagePathForRightPanel.png",
+      "descr": "Here is a text description of the right-panel of scenario sample1. Provide the user more context to scenario.",
+      "barValues": [2,8,2,0,3]
+    }
+  },
+  {
+    "id": "2",
+    "Left-Panel": {
+      "img_path": "anotherSample2ImageLeftPanel.jpg",
+      "descr": "Here is a description of the left-panel of the second sample scenario",
+      "barValues": [2,7,2,0,4]
+    },
+    "Right-Panel": {
+      "img_path": "anotherSample2ImageRightPanel.jpg",
+      "descr": "Here is a description of the right-panel of the second sample scenario",
+      "barValues": [2,7,1,9,1]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+	"title" : "Water Ethics Web Engine Demo",
+
+	"author"	: "Greg Ewing",
+	"date"		: "June 2020",
+	"projectInfo" : "Sample Build demo for github repo.",
+	"buildKey"	: 33,
+	"directoryName" : "sampleBuild",
+
+
+	"scenarios" : {
+		"nTot" : 5,
+		"nServe" : 5
+	},
+
+	"infoBar" : {
+		"header" 		: "Damages",
+		"nCategories" 	: 5,
+		"categories" 	: ["Federal and State Costs","Private Costs","Injuries","Deaths","Environmental Impact"],
+		"defaultColor"	: "#2ecc71",
+		"colorByCat"	: ["default","default","#aa0000b3","#aa0000b3","#3957ab"]
+	},
+
+	"results" : {
+		"aggregateExplanation" : "The images below show the voting preferences for the scenarios you saw. Percentages show the divide between majority and minority preferences.",
+		"sliderExplanation" : "The sliders show the same date as the table, only here the data are normalized to the minimum and maximum possible outcomes for each category. If you are further to the left, it suggests that you emphasize the <i>minimization</i> of the category.",
+		"tableExplanation" : "The table below shows the minimum and maximum possible damage for each category, given the scenarios you encountered. It also shows the score that you received within each category. A score close to the minimum suggests that you prioritize minimizing this type of damage."
+	},
+	
+	"comparitorButton" : "Flood This",
+	"navleft"  : "Flood Thy Neighbor",
+	"navright" : "Ethics in Engineering",
+	"steps" : "1. Play the game. <br>2. View the results.",
+	"missionStatement" : "Flooding happens every year all around the world. When it floods governments, companies, and citizens all need to react. Help us learn your preference for flooding events. What outcomes would you want to see in your community?",
+	"instructionText" : "Chose between the two scenarios below. Click the Flood This button for the outcome you would prefer to see."
+}
