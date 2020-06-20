@@ -31,6 +31,7 @@ This is does not direct users to gameplay.
 ## Quickstart
 To deploy the `sampleBuild`, follow these steps:
 1) Initialize your database on a web-accessible server using the PostgreSQL CREATE scripts in `_database`,
+	**Note**: Don't want to deal with setting up the database to log results at the moment? No worries, the user interface will look the same without it. (You just won't be able to see the aggregated results page.)
 2) Locate the directories `app/` and `sampleBuild/` at the same level on a web server that is php-enabled,
 3) Update `app/php/database.php` with the proper credentials and connection information.
 

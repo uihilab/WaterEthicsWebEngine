@@ -8,7 +8,9 @@ set_error_handler("exception_error_handler");
 
 try {
     $connect=@pg_connect($db_str);
+    $_SESSION["connection"] = True;
 } Catch (Exception $e) {
     Echo $e->getMessage();
+    $_SESSION["connection"] = False;
 }
 ?>

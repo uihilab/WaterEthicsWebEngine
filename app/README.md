@@ -6,9 +6,11 @@ We will begin with a brief explanation of each helper file in the order that the
 - `database.php`: contains the code to create a database connection.
 This file is called from most of the other files in `app/`.
 Update this file with your db info once you've set up your database.
+If you do not update this file, the framework will not collect or log results. (It will still have the same gameplay, simply without showing the results page.)
 - `makeUser.php`: Upon entering into gameplay, this file creates a unique id for a partipant and inserts it into the `uid_table` in the database.
 - `logResponse.php`: Inserts user's repsonse after user provides preference on each scenario.
 - `aggregateResults.php`: Queries database and returns JSON of total voting results for each scenario the user provided their preference on.
+- `db-free-results.php`: HTML that is included into `engine.php` in the event there was no database connection established.
 - `dataCollect.php`: database connection for post-play analysis. See `_analytics/` readme and notebook for demonstration of use.
 
 ## `engine.php`

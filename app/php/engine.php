@@ -128,6 +128,7 @@ function getUserIpAddr(){
 	<script type="text/javascript">
 		// Global Variables
 		var gameBuild = <?php echo json_encode($_SESSION["gameBuild"]); ?>;
+		var connection = <?php echo json_encode($_SESSION["connection"]); ?>;
 		var currentID;
 
 		function loadContent(){
@@ -549,10 +550,15 @@ function getUserIpAddr(){
 		}
 
 		function showResults(){
-			/*
-			buildResultsHTML() does the hard work
-			*/
-			document.getElementById('results').innerHTML = buildResultsHTML();
+
+			if (connection == false) {
+				document.getElementById('results').innerHTML = <?php include '../app/php/db-free-results.php'; ?>;
+			} else {
+				/*
+				buildResultsHTML() does the hard work
+				*/
+				document.getElementById('results').innerHTML = buildResultsHTML();
+			}
 		}
 
 		function buildResultsHTML(){
