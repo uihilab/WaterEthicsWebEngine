@@ -7,7 +7,7 @@ Ewing, G., and Demir, I.
 An Ethical Decision-Making Framework with Serious Gaming: 
 Smart Water Case Study on Flooding
 ```
-The [manuscript can be found on EarthArXiv here](https://doi.org/10.31223/osf.io/y873g).
+[Read or download the manuscript on EarthArXiv.](https://doi.org/10.31223/osf.io/y873g).
 
 ## Content of repository
 The code in this repository is the basis for a generalized serious gaming and analysis framework for ethical decision making.
