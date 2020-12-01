@@ -1,18 +1,13 @@
 # Water Ethics Web Engine: (WE)<sup>2</sup>
 Welcome to the project repository for the Water Ethics Web Engine, (WE)<sup>2</sup>, a web framework for ethical decision-making for smart water systems.
-
-
-<!-- This project repository is a contribution to the research detailed in:
+This project repository accompanies the following manuscript (in review with the Journal of Hydroinformatics):
 ```
 Ewing, G., and Demir, I.
 
 An Ethical Decision-Making Framework with Serious Gaming: 
 Smart Water Case Study on Flooding
-
-Journal of Hydroinformatics
-2020
 ```
-The manuscript can be found here: [insert link](). -->
+The [manuscript can be found on EarthArXiv here](https://doi.org/10.31223/osf.io/y873g).
 
 ## Content of repository
 The code in this repository is the basis for a generalized serious gaming and analysis framework for ethical decision making.
