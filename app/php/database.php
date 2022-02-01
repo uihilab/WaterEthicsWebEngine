@@ -10,7 +10,7 @@ try {
     $connect=@pg_connect($db_str);
     $_SESSION["connection"] = True;
 } Catch (Exception $e) {
-    Echo $e->getMessage();
+    // Echo $e->getMessage();
     $_SESSION["connection"] = False;
 }
 ?>
